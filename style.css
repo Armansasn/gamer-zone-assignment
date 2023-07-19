@@ -322,4 +322,24 @@ font-weight: 500;
         display: grid;
         grid-template-columns: repeat(3,1fr);
     }
-  }
+    .terms{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .btn-grid{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+
+    }
+    .image-button{
+        font-size: 10px;
+        font-weight: 400;
+        padding: 5px;
+    }
+    .play-header{
+        text-align: center;
+    }
+    .play-description{
+        text-align: center;
+    }
+}
