@@ -116,7 +116,7 @@ line-height: 30px; /* 166.667% */
 .funny-container{
     max-width: 1250px;
     margin: 0 auto;
-    padding-top:50px ;
+    padding:100px 0 ;
 }
 .funny-img{
     display: flex;
@@ -169,7 +169,7 @@ text-align: right;
 font-size: 18px;
 font-weight: 400;
 line-height: 30px; /* 166.667% */
-padding-bottom: 400px;
+padding-bottom: 200px;
 width: 400px;
 }
 .play-up-img{
@@ -184,10 +184,14 @@ width: 400px;
 .button-container{
     background-color:rgb(237, 235, 200);
     text-align: center;
+    padding: 100px 0;
     
 }
 .btn-grid{
     display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
 }
 .image-button {
     width: auto;
@@ -203,4 +207,52 @@ width: 400px;
     border: 0;
     margin: 20px;
   }
-  
+  .last-one{
+    background-color: #0B0223;
+    padding: 100px 0;
+  }
+  .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  .nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+  }
+  .nav li{
+    list-style: none;
+    margin: 20px;
+  }
+  .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .icon li{
+    list-style: none;
+    margin: 20px;
+    width: 50px;
+  }
+  .terms{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.60);
+font-size: 16px;
+font-weight: 500;
+  }
+  .terms li{
+    list-style: none;
+    margin:20px ;
+  }
+  .foot{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+  }
