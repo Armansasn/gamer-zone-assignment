@@ -290,8 +290,12 @@ font-weight: 500;
     .logos{
         padding-bottom:20px ;
     }
+    .menus>ul{
+        flex-direction: column;
+    }
     .menus li{
           margin-right: 20px;
+          padding-top: 20px;
     }
     .banner-container{
         
@@ -342,4 +346,41 @@ font-weight: 500;
     .play-description{
         text-align: center;
     }
+}
+@media  screen and (min-width:576px) and (max-width:768px) {
+    .nav-container{
+        width: 100%;
+    }
+    .banner-container{
+        width: 100%;
+    }
+    .img-container img{
+        width: 100%;
+    }
+    .banner-container h2{
+        font-size: 30px;
+    }
+    .banner-container h1{
+        font-size: 70px;
+    }
+    .gamer-container{
+        flex-direction: column;
+    }
+    .gamer-text{
+        text-align: center;
+    }
+    .funny-img{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .play-container{
+        flex-direction: column-reverse;
+    }
+    .play-header{
+        text-align: center;
+    }
+    .play-description{
+        text-align: center;
+    }
+    
 }
