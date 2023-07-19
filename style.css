@@ -124,6 +124,10 @@ line-height: 30px; /* 166.667% */
     align-items: center;
     gap: 20px;
 }
+.funny-img img{
+    width: 300px;
+    height: auto;
+}
 .funny-header{
     color: #0B0223;
 text-align: center;
@@ -143,3 +147,60 @@ font-weight: 400;
 line-height: 30px; /* 166.667% */
 padding-bottom:20px ;
 }
+.play-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    width: 1250px;
+    margin: 0 auto;
+    
+}
+.play-header{
+    text-align: right;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 125% */
+}
+.play-description{
+    color: #534C64;
+text-align: right;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+padding-bottom: 400px;
+width: 400px;
+}
+.play-up-img{
+    width: 548px;
+}
+.play-down-img{
+    width: 283px;
+    position: relative;
+    top: -250px;
+    left: -100px;
+}
+.button-container{
+    background-color:rgb(237, 235, 200);
+    text-align: center;
+    
+}
+.btn-grid{
+    display: flex;
+}
+.image-button {
+    width: auto;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 40px;
+    border: 0;
+    margin: 20px;
+  }
+  
